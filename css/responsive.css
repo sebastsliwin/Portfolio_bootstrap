@@ -1,0 +1,19 @@
+@media all and (max-width: 992px) {
+    #main-nav .toggle {
+        display: block;
+        color: #1ac056;
+        font-size: 24px;
+    }
+
+    #main-nav ul {
+        display: none;
+    }
+
+    #main-nav #drop:checked + ul {
+        display: block;
+    }
+
+    #main-nav ul li {
+        display: block;
+    }
+}
